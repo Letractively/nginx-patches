@@ -1,2 +1,0 @@
-= headers_filter module patch =
-The patch allows you to use directives {{{add_header}}} and {{{expires}}} for codes other than 200, 204, 301, 302 or 304.
