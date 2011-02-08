@@ -9,5 +9,5 @@ The patch allows you to use directives {{{add_header}}} and {{{expires}}} for co
  }}}
  You should receive message 
  {{{
- "patching file src/http/modules/ngx_http_headers_filter_module.c"
+ patching file src/http/modules/ngx_http_headers_filter_module.c
  }}}.
