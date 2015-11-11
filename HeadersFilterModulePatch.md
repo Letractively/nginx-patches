@@ -1,0 +1,13 @@
+# headers\_filter module patch #
+The patch allows you to use directives `add_header` and `expires` for codes other than 200, 204, 301, 302 or 304.
+
+## Usage ##
+  * Copy `headers_filter.patch` into nginx distibution directory (ex. `~/Downloads/nginx/`)
+  * Apply the patch:
+```
+ patch -p0 -i headers_filter.patch
+```
+> You should receive message
+```
+ patching file src/http/modules/ngx_http_headers_filter_module.c
+```
